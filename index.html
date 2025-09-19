@@ -22,10 +22,10 @@
   
   </head>
   <body class="bg-light">
-
+    <!--Navbar-->
     <nav class="navbar navbar-light bg-light shadow">
-      <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="/public/logo.svg" alt="Logo" width="30"
-            height="30" class="d-inline-block align-text-top"> <span class="fw-bold">SOŠ Digital</span> </a>
+      <div class="container-fluid"> <a class="navbar-brand" href="#">
+        <img src="/logo.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> <span class="fw-bold">SOŠ Digital</span> </a>
         <div class="d-none d-md-flex">
           <ul class="navbar-nav flex-row">
             <li class="nav-item me-3"><a class="nav-link fw-bold" href="#"><span>Domů</span></a></li>
@@ -34,9 +34,7 @@
             <li class="nav-item me-3"> <a class="nav-link" href="#udalosti"><span>Události</span></a> </li>
             <li class="nav-item me-3"> <a href="#prihlaska" class="btn btn-primary" role="button"><span>Přihláška</span></a></li>
           </ul>
-        </div> <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> <span
-            class="navbar-toggler-icon"></span> </button>
+        </div> <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -50,6 +48,7 @@
         </div>
       </div>
     </nav>
+    <!--Hero sekce-->
     <header class="pb-5 bg-white">
       <div class="container"> <span class="badge text-bg-warning text-light mt-3 mb-2">Fiktivní ukázkový web</span> </div>
       <div class="container">
@@ -59,31 +58,35 @@
             <p class="text-body-secondary"> Moderní vzdělávání v IT, designu a digitálních médií<br> Studujte u nás, jsme
               vaše <em>jednička</em>! </p>
             <div class="row mb-3">
-              <div class="col-auto"> <a role="button" class="btn btn-primary" href="#obory"><span>Studijní obory</span></a> </div>
-              <div class="col-auto ps-0"> <a role="button" class="btn btn-outline-secondary" href="#faq"><span>Nejčastější dotazy</span></a> </div>
+              <div class="col-auto">
+                <a role="button" class="btn btn-primary" href="#obory"><span>Studijní obory</span></a>
+              </div>
+              <div class="col-auto ps-0">
+                <a role="button" class="btn btn-outline-secondary" href="#faq"><span>Nejčastější dotazy</span></a>
+              </div>
             </div>
             <div class="row">
               <div class="col-auto mt-1 mb-3">
-                <div class="fw-medium">45 000+</div>
-                <div class="text-secondary"><small>Absolventů</small></div>
+                <dt class="fw-medium">45 000+</dt>
+                <p class="text-secondary"><small>Absolventů</small></p>
               </div>
               <div class="col-auto mt-1 mb-3">
-                <div class="fw-medium">150</div>
-                <div class="text-secondary text-nowrap"><small>Let zkušeností</small></div>
+                <dt class="fw-medium">150</dt>
+                <p class="text-secondary text-nowrap"><small>Let zkušeností</small></p>
               </div>
               <div class="col-auto mt-1 mb-3">
-                <div class="fw-medium">99%</div>
-                <div class="text-secondary"><small>Uplatnění</small></div>
+                <dt class="fw-medium">99%</dt>
+                <p class="text-secondary"><small>Uplatnění</small></p>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="card"> <img class="card-img" src="/public/hero-image.webp" alt="Budova školy"> </div>
+            <div class="card"> <img class="card-img" src="/hero-image.webp" alt="Budova školy"> </div>
           </div>
         </div>
       </div>
     </header>
-    
+    <!--Obory-->
     <section id="obory" class="container my-5 ps-4">
       <h2 class="text-center fw-bold mb-4">Studijní obory</h2>
       <div class="row g-4">
@@ -121,7 +124,7 @@
       <button class="btn btn-outline-success" type="submit">Hledat</button>
     </form>
   </div>
-
+  
   <div class="row g-4">
     <div class="col-md-4">
       <div class="card shadow-sm h-100 d-flex flex-column">
@@ -223,7 +226,7 @@
         </div>
       </div>
     </section>
-
+    <!--Galerie-->
     <section class="container my-5 ps-4">
       <h2 class="text-center fw-bold mb-4">Galerie</h2>
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
